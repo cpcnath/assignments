@@ -6,6 +6,16 @@
 
 function isAnagram(str1, str2) {
 
+
+    // Check if the array is empty
+    if (numbers.length === 0) {
+        return null; // or throw an error depending on the requirement
+    }
+
+    // Find the largest element
+    return Math.max(...numbers);
 }
 
-module.exports = isAnagram;
+module.exports = findLargestElement;
+
+
